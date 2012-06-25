@@ -1,0 +1,9 @@
+
+
+Examples
+
+Set a key/value prop
+curl -d 'd=[{"node tag":[{"k":"key","v":"3"}]}]' ssh.supertriceratops.com:14563/data/68360894853c28d56d203f436e5ec9/  
+
+Create a user:
+curl -d 'd={"contact":{"email":"ianpye@gmail.com"}}' ssh.supertriceratops.com:14563/data/
